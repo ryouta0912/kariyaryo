@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>シンプルWebサイト</title>
+  <style>
+    /* リセット＆ボックスサイズ調整 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #FF99FF;
+      color: #000;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: #4CAF50;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>丹羽凌大の自己紹介サイト</h1>
+  </header>
+
+  <main>
+    <h2>ようこそ！</h2>
+    <p>このサイトは丹羽凌大の自己紹介サイトです。</p>
+
+    <h2>経歴</h2>
+    <p>丹羽凌大の人生</p>
+　　<table border="1">
+  <thead>
+    <tr>
+      <th>項目</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>りんご</td>
+  </tbody>
+　<tr>
+      <td>りんご</td>
+  </tbody>
+　<tr>
+      <td>りんご</td>
+  </tbody>
+　<tr>
+      <td>りんご</td>
+  </tbody>
+</table>
+
+  </main>
+
+  <footer>
+    <p>お問い合わせ: contact@example.com</p>
+    <p>
+      <a href="#">Twitter</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+</body>
+</html>
